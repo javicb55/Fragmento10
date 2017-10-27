@@ -30,6 +30,7 @@ public class Fragmento1 extends ListFragment {
                 textoSuperiorEntrada.setText(((Contenido.Lista_entrada)entrada).textoEncima);
                 ImageView imageView = (ImageView) view.findViewById(R.id.imagenlista);
                 imageView.setImageResource(((Contenido.Lista_entrada)entrada).idImagen);
+
             }
         });
     }

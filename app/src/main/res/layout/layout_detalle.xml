@@ -14,6 +14,7 @@
         android:textSize="22dp"
         android:text="Large Text"
         android:textStyle="bold"
+        android:layout_gravity="center"
         />
 
     <ImageView
@@ -24,6 +25,7 @@
         android:contentDescription="Descripción del contenido de la imagen"
         android:scaleType="fitXY"
         android:src="@android:drawable/ic_menu_gallery"
+        android:layout_gravity="center"
         />
 
     <TextView
@@ -34,6 +36,7 @@
         android:textSize="15dp"
         android:text="Small Text"
         android:gravity="center"
+        android:layout_gravity="center"
         />
 
 
